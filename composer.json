@@ -1,0 +1,20 @@
+{
+    "name": "CraspHb/Umeng",
+    "description": "集成友盟推送的composer包.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phprookiehbb",
+            "email": "646054215@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CraspHb\\Umeng\\": "src/"
+        }
+    }
+}
